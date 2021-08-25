@@ -47,7 +47,7 @@
             <div class="col-sm-4 justify-content-end d-flex">
               <ul class="listHeader">
                   <li>
-                    <a href="/empresas">contacto</a>
+                    <a href="/personal#ContentContacto">contacto</a>
                   </li>
                   <li>
                     <a href="#">sign in</a>
@@ -97,7 +97,7 @@
               <hr class="menuMolbileHr" />
             </li>
             <li>
-              <a href="/empresas">contacto <i class="fa fa-chevron-right"></i></a>
+              <a href="/personal#ContentContacto">contacto <i class="fa fa-chevron-right"></i></a>
             </li>
             <li>
               <a href="#">sign in <i class="fa fa-chevron-right"></i></a>
