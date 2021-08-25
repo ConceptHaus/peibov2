@@ -38,7 +38,7 @@
                 </ul>
               </div>
               <div class="col-sm-4">
-                  <ul class="listFooter">
+                  <ul class="listFooter mt-3">
                     <!--<li>
                       <a href="/personal">Personal</a>
                     </li>-->

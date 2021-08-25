@@ -2084,10 +2084,12 @@ p span, p ul {
   font-size: 3.4em;
   letter-spacing: 3px;
   font-weight: revert;
+  color:  #2E3649;
 }
 .bgsSectionEmpresas label, .bgsSectionEmpresas p {
   font-family: "sofiaRegular", Helvetica, Arial, sans-serif;
   font-size: 12px;
+  color:  #2E3649;
 }
 .bgsSectionEmpresas .noMargin {
   margin: 0%;
@@ -2101,6 +2103,7 @@ p span, p ul {
   font-size: 1.3em !important;
   letter-spacing: 1px;
   font-weight: lighter;
+  color:  #2E3649;
 }
 .bgsSectionEmpresas ul {
   list-style: none;
@@ -3711,8 +3714,8 @@ body.is-preload .bannerInt > .titleInt {
 
 .listSociales {
   list-style: none;
-  margin-left: -4%;
-  margin-top: 2%;
+  margin-left: -12%;
+  margin-top: 4%;
 }
 .listSociales li {
   float: left;
