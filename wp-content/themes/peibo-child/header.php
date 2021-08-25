@@ -39,9 +39,9 @@
                   <!--<li>
                     <a href="/personal">personal</a>
                   </li>-->
-                  <li>
+                  <!--<li>
                     <a href="/empresas">empresas</a>
-                  </li>
+                  </li>-->
                 </ul>
             </div>
             <div class="col-sm-4 justify-content-end d-flex">
@@ -90,12 +90,12 @@
             <!--<li>
               <a href="/personal">personal <i class="fa fa-chevron-right"></i></a>
             </li>-->
-            <li>
+            <!--<li>
               <a href="/empresas">empresas <i class="fa fa-chevron-right"></i></a>
             </li>
             <li>
               <hr class="menuMolbileHr" />
-            </li>
+            </li>-->
             <li>
               <a href="/personal#ContentContacto">contacto <i class="fa fa-chevron-right"></i></a>
             </li>
