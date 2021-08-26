@@ -194,7 +194,7 @@ get_header();
       <!-- Control the column width, and how they should appear on different devices -->
     <div class="row ">
       <div class="col-sm-6">
-        <img class="" src="/wp-content/themes/peibo-child/assets/img/empresas/Credit_Card_Mockup2v2.png" width="90%" alt="Peibo" />
+        <img class="rotate" src="/wp-content/themes/peibo-child/assets/img/empresas/Credit_Card_Mockup2v2SinFondo.png" width="90%" alt="Peibo" />
       </div>
       <div class="col-sm-6" >
         <div class="row">
