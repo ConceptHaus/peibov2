@@ -41,17 +41,13 @@
                   <ul class="listFooter mt-3">
                     <!--<li>
                       <a href="/personal">Personal</a>
-                    </li>-->
+                    </li>
                     <li>
                       <a href="/empresas">Empresas</a>
-                    </li>
+                    </li>-->
                     <li>
                       <a href="/blog">Blog</a>
                     </li>
-                  </ul>
-              </div>
-              <div class="col-sm-4">
-                <ul class="listFooter">
                     <li>
                       <a href="/legales">Legales</a>
                     </li>
@@ -61,6 +57,11 @@
                     <li>
                       <a href="/terminos-y-condiciones">Términos y Condiciones</a>
                     </li>
+                  </ul>
+              </div>
+              <div class="col-sm-4">
+                <ul class="listFooter">
+                    
                   </ul>
               </div>
             </div>
