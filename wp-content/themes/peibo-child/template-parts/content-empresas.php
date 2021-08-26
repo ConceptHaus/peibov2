@@ -178,8 +178,8 @@ get_header();
           </div>
         </div>
       </div>
-      <div class="col-sm-6 d-flex justify-content-center texy-center contPantalla2" >
-        <img class="" src="/wp-content/themes/peibo-child/assets/img/empresas/Pantalla2.png" width="90%" alt="Peibo" />
+      <div class="col-sm-6 d-flex justify-content-center text-center contPantalla2" >
+        <img class="" src="/wp-content/themes/peibo-child/assets/img/empresas/Pantalla2.png" width="70%" alt="Peibo" />
       </div>
     </div>
   </div>
@@ -296,11 +296,11 @@ get_header();
             <h3>Tarjeta Ejecutiva</h3>
         </div>
         <div class="col-sm-10 mt-5" > 
-            <p>Administra el saldo de esta tarjeta desde tu cuenta empresarial <br />para que tus empleados puedan pagar viáticos, viajes o <br/> cualquier gasto que requieras en tu negocio.</p>
+            <p class="first">Administra el saldo de esta tarjeta desde tu cuenta empresarial <br />para que tus empleados puedan pagar viáticos, viajes o <br/> cualquier gasto que requieras en tu negocio.</p>
             <br />
             <p class="second">Ofrece a tus empleados un paquete de asistencias <br/> especializadas para viajes de negocio .</p>
             <br />
-          <ul class="listEmpresas">
+          <ul class="listEmpresas tercero">
             <li>
             Asistencia de Viaje</li>
             <li>
@@ -363,7 +363,7 @@ get_header();
             <textarea id="inpMensaje" name="inpMensaje" class="form-control required" required></textarea>
           </div>
           <div class="form-group text-center d-flex justify-content-center">
-            <button type="submit" class="btn btn-primary btnSubmit">Enviar  <i class="fa fa-paper-plane"></i></button>
+            <button type="submit" class="btn btn-primary btnSubmit">enviar  <i class="fa fa-paper-plane"></i></button>
           </div>
         </form>
       </div>

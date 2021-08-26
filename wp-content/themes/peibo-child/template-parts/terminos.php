@@ -19,7 +19,7 @@ get_header();
  
  <div class="container-fluid page-privacidad  mt-5 pt-5">
     <!-- Control the column width, and how they should appear on different devices -->
-    <div class=" maskLegalesMiddle"></div>
+    <div class=" mask-terminosCondMiddle"></div>
     <section class="container">
       <div class=" maskTerminos"></div>
 
