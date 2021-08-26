@@ -2026,12 +2026,12 @@ p span, p ul {
 
 
 .slideCt{
-    background-image: url("../img//empresas/curvaEmpresas2.png"), url("../img//empresas/curvaEmpresas2.png") !important;
+    background-image: url("../img/empresas/curvaEmpresas2.png"), url("../img/empresas/curvaEmpresas2.png") !important;
   }
 @media all and (min-width:  768px){
   .bgsSectionEmpresas {
     padding-top: 9%;
-    background-image: url("../img//empresas/icon-empresas.png"), url("../img//empresas/icon-empresas.png") !important;
+    /*background-image: url("../img//empresas/icon-empresas.png"), url("../img//empresas/icon-empresas.png") !important;*/
     background-color: transparent;
     background-size: 70%;
     background-repeat: no-repeat;

@@ -16,7 +16,8 @@ get_header();
 ?>
 
 
-<div class="container-fluid bgsSectionEmpresas ">
+<div class="container-fluid  bgsSectionEmpresas">
+  <div class="maskSupHom animateHorizontal"></div>
   <!-- Control the column width, and how they should appear on different devices -->
   <section class="container mt-1">
     <div class="row">
@@ -122,7 +123,7 @@ get_header();
         <div class="col-sm-4 columnSection2 empresas">
           <div class="row">
             <div class="col-sm-12 d-flex justify-content-center contentICon">
-                <img class="iconSection" src="/wp-content/themes/peibo-child/assets/img/icons/credit.png" alt="Peibo" />
+                <img class="iconSection  animate__animated animate__bounce animate__delay-4s animate__p" src="/wp-content/themes/peibo-child/assets/img/icons/credit.png" alt="Peibo" />
             </div>
             <div class="col-sm-12 d-flex justify-content-center text-center">
               <div class="row col-sm-12 d-flex justify-content-center contEm">
@@ -137,7 +138,7 @@ get_header();
         <div class="col-sm-4 columnSection2 empresas">
           <div class="row">
             <div class="col-sm-12 d-flex justify-content-center d-flex contentICon">
-                <img class="iconSection" src="/wp-content/themes/peibo-child/assets/img/icons/ejecutiva.png" alt="Peibo" />
+                <img class="iconSection  animate__animated animate__bounce animate__delay-4s animate__p" src="/wp-content/themes/peibo-child/assets/img/icons/ejecutiva.png" alt="Peibo" />
             </div>
             <div class="col-sm-12 d-flex justify-content-center  text-center">
               <div class="row col-sm-12 d-flex justify-content-center contEm">
@@ -169,7 +170,7 @@ get_header();
             </p>
           </div>
           <div class=" col-sm-12 d-flex">
-            <ul class="listTarEmpresas">
+            <ul class="listTarEmpresas listCustomEm">
               <li>- Dispersión masiva de pagos.</li>
               <li>- Tesorería global.</li>
               <li>- Administración de múltiples usuarios en la misma cuenta.</li>
@@ -179,12 +180,12 @@ get_header();
         </div>
       </div>
       <div class="col-sm-6 d-flex justify-content-center text-center contPantalla2" >
-        <img class="" src="/wp-content/themes/peibo-child/assets/img/empresas/Pantalla2.png" width="70%" alt="Peibo" />
+        <img class="animate__animated animate__bounce animate__delay-1s animate__fadeInLeftBig" src="/wp-content/themes/peibo-child/assets/img/empresas/Pantalla2.png" width="70%" alt="Peibo" />
       </div>
     </div>
   </div>
   <div class="container-fluid d-flex justify-content-center  contPantalla2Mobile">
-    <img class="" src="/wp-content/themes/peibo-child/assets/img/empresas/Pantalla2Mobile.png" width="100%" alt="Peibo" />
+    <img class="animate__animated animate__bounce animate__delay-1s animate__fadeInLeftBig" src="/wp-content/themes/peibo-child/assets/img/empresas/Pantalla2Mobile.png" width="100%" alt="Peibo" />
   </div>
 </section>
 

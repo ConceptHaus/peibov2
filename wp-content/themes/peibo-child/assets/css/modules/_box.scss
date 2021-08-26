@@ -658,4 +658,46 @@ form {
     background-position-x: -24% !important;
 }
 
+  .listCustomEm{
+    margin-left: 0% !important;
+  }
+
+
+
+
+  .animateHorizontal {
+    animation: anim1 2s ease-in-out alternate infinite;
+    -webkit-animation: anim1 2s ease-in-out alternate infinite;
+    transform-origin: 0px 60px;
+    animation-name: bola1;
+    -webkit-animation-duration: 8000ms;
+            animation-duration: 8000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -webkit-transform-origin: 0px 60px;
+    -webkit-animation-name: bola1;
+    -webkit-animation-duration: 4000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    position: absolute;
+    display: inline;
+    left: 0%;
+    top: -11%;
+    width: 50%;
+  }
+
+  .maskSupHom{
+    padding-top: 9%;
+    background-image: url("#{$imgR}empresas/icon-empresas.png"), url("#{$imgR}empresas/icon-empresas.png") !important;
+    background-color: transparent;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 100%;
+    height: 117%;
+    background-position-y: 5%;
+    background-position-x: 140%;
+    position: absolute;
+  }
+
 }
