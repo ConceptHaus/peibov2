@@ -678,7 +678,7 @@ body {
   right: 0% !important;
   vertical-align: middle;
   display: inline;
-  margin-top: 4%;
+  margin-top: 2%;
 }
 .menuDesMobile .row ul li a:hover {
   color: #00DCDA;
@@ -691,7 +691,7 @@ body {
   text-align: center;
   display: block;
   border-radius: 10px;
-  padding: 5px;
+  padding: 7px;
   margin-top: 30% !important;
 }
 .menuDesMobile .row ul li hr {

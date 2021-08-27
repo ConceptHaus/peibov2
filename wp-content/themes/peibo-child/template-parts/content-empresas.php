@@ -297,7 +297,7 @@ get_header();
             <h3>Tarjeta Ejecutiva</h3>
         </div>
         <div class="col-sm-10 mt-5" > 
-            <p class="first">Administra el saldo de esta tarjeta desde tu cuenta empresarial <br />para que tus empleados puedan pagar viáticos, viajes o <br/> cualquier gasto que requieras en tu negocio.</p>
+            <p class="first">Administra el saldo de esta tarjeta desde tu cuenta empresarial <br />para que tus empleados puedan pagar viáticos, viajes o  cualquier gasto que requieras en tu negocio.</p>
             <br />
             <p class="second">Ofrece a tus empleados un paquete de asistencias <br/> especializadas para viajes de negocio .</p>
             <br />
@@ -334,10 +334,10 @@ get_header();
     <div class="col-sm-6 bgsImgContact d-none d-sm-block">
       <img src="/wp-content/themes/peibo-child/assets/img/empresas/contactoempresa.png" />
     </div>
-    <div class="col-sm-6 contentFrm justify-content-center d-flex">
+    <div class="col-sm-6 contentFrm justify-content-center d-flex pt-2" style="position: relative;">
        <div class="col-sm-12 justify-content-center d-flex pt-2">
             
-        <form class="pt-5">
+         <form id="frmContact" method="POST" name="frmContact" class="pt-5" style="position:relative;">
            <div class="form-row customRowForm">
                 <h2>Contacto</h2>
            </div>
@@ -345,28 +345,39 @@ get_header();
                 <label>¿Tienes alguna duda o comentario para nosotros?<br/>
                 Completa el siguiente formulario para contactar con nuestro equipo.</label>
            </div>
-          <div class="form-row mt-4">
+          <div class="form-row mt-4 posRela">
             <div class="form-group col-md-6 ">
                <label for="inputEmail4">Nombre (s)*</label>
                <input type="text" class="form-control required" required id="inpNombre" name="inpNombre">
             </div>
-            <div class="form-group col-md-6">
+            <div class="form-group col-md-6 posRela">
               <label for="inputPassword4">Apellidos*</label>
               <input type="text" class="form-control required" required id="inpApellidos" name="inpApellidos">
             </div>
           </div>
-          <div class="form-group">
+          <div class="form-group posRela">
             <label for="inputAddress">Email</label>
             <input type="email" class="form-control required" required id="inpEmail" name="inpEmail">
           </div>
-          <div class="form-group">
+          <div class="form-group posRela">
             <label for="inputAddress2">Mensaje*</label>
             <textarea id="inpMensaje" name="inpMensaje" class="form-control required" required></textarea>
           </div>
           <div class="form-group text-center d-flex justify-content-center">
-            <button type="submit" class="btn btn-primary btnSubmit">enviar  <i class="fa fa-paper-plane"></i></button>
+            <button type="submit" class="btn btn-primary btnSubmit btnSend">enviar  <i class="fa fa-paper-plane"></i></button>
           </div>
-        </form>
+        
+
+        <div class="ctModal hideMo" id="modalCongrats">
+            <div class="ctModal__icon">
+              <i class="fa fa-paper-plane"></i>
+            </div><!-- end.ctModal__icon -->
+            <div class="ctModal__desc">
+              <h4 class="ctModal__title">¡Gracias por ponerte en contacto con nosotros!</h4>
+              <p>En breve recibirás un correo de nuestros asesores.</p>
+            </div>
+          </div><!-- end.ctModal -->
+        </form><!-- end.form -->
       </div>
     </div> 
   </div>
