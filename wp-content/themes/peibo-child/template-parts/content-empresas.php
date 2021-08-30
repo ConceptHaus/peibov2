@@ -61,7 +61,7 @@ get_header();
           </div>
           <div class="col-sm-12 d-flex justify-content-center  text-center">
             <div class="row col-sm-12 d-flex justify-content-center contEm">
-                <h3>Cash Management.</h3>
+                <h3  class=" animate__animated animate__bounce animate__delay-1s animate__backInLeft">Cash Management.</h3>
                 <br />
               <label class="mt-2">Controla y monitorea tus finanzas desde nuestra aplicación de Cash Management.</label>
             </div>
@@ -75,7 +75,7 @@ get_header();
           </div>
           <div class="col-sm-12 d-flex justify-content-center text-center">
             <div class="row col-sm-12 d-flex justify-content-center contEm">
-              <h3>Tarjeta Nómina.</h3>
+              <h3 class=" animate__animated animate__bounce animate__delay-1s animate__backInLeft">Tarjeta Nómina.</h3>
               <br/>
               <label class="mt-2">Solicita la Tarjeta Nómina y disfruta de todos los beneficios que tiene para tus empleados y para ti. <br/>Realiza transferencias y pagos 24/7.</label>
             </div>
@@ -194,17 +194,17 @@ get_header();
       <!-- Control the column width, and how they should appear on different devices -->
     <div class="row ">
       <div class="col-sm-6">
-        <img class="rotate" src="/wp-content/themes/peibo-child/assets/img/empresas/Credit_Card_Mockup2v2SinFondo.png" width="90%" alt="Peibo" />
+        <img class="rotate animate__animated animate__bounce animate__delay-1s animate__backInLeft" src="/wp-content/themes/peibo-child/assets/img/empresas/Credit_Card_Mockup2v2SinFondo.png" width="90%" alt="Peibo" />
       </div>
       <div class="col-sm-6" >
         <div class="row">
           <div class=" col-sm-12 d-flex">
             <p>
-              <span class="titleNomina">Tarjeta Nómina.</span>
-              <span class="parNomina">
+              <span class="titleNomina  animate__animated animate__bounce animate__delay-1s animate__fadeInUpBig">Tarjeta Nómina.</span>
+              <span class="parNomina  animate__animated animate__bounce animate__delay-2s animate__fadeInUpBig">
                 Creamos una tarjeta de débito perfecta para tu negocio. La Tarjeta Nómina es la manera más fácil de pagar la nómina de tus empleados. Se puede administrar desde la app móvil para lograr una experiencia fluida, segura e intuitiva.
               </span>
-              <span class="parNomina parNomina2">
+              <span class="parNomina parNomina2  animate__animated animate__bounce animate__delay-3s animate__fadeInUpBig">
                 Aprovecha todos los beneficios y paquetes asistenciales que ofrece la tarjeta:
               </span>
             </p>
@@ -215,20 +215,20 @@ get_header();
               <div class="row">
                 <div class="col-sm-6">
                   <ul class="listTarEmpresas coloBlack">
-                    <li>Asistencia Médica</li>
-                    <li>Asistencia Psicológica</li>
-                    <li>Asistencia Nutricional</li>
-                    <li>Asistencia del Hogar</li>
-                    <li>Asistencia Vial</li>
+                    <li class=" animate__animated animate__bounce animate__delay-1s animate__backInLeft">Asistencia Médica</li>
+                    <li class=" animate__animated animate__bounce animate__delay-2s animate__backInLeft">Asistencia Psicológica</li>
+                    <li class=" animate__animated animate__bounce animate__delay-3s animate__backInLeft">Asistencia Nutricional</li>
+                    <li class=" animate__animated animate__bounce animate__delay-4s animate__backInLeft">Asistencia del Hogar</li>
+                    <li class=" animate__animated animate__bounce animate__delay-5s animate__backInLeft">Asistencia Vial</li>
                   </ul>
                 </div>
                 <div class="col-sm-6">
                   <ul class="listTarEmpresas coloBlack">
-                    <li>Asistencia Legal</li>
-                    <li>Asistencia Funeraria</li>
-                    <li>Asistencia Mascota</li>
-                    <li>Compra Protegida</li>
-                    <li>Garantía Extendida</li>
+                    <li class=" animate__animated animate__bounce animate__delay-5s animate__backInLeft">Asistencia Legal</li>
+                    <li class=" animate__animated animate__bounce animate__delay-4s animate__backInLeft">Asistencia Funeraria</li>
+                    <li class=" animate__animated animate__bounce animate__delay-3s animate__backInLeft">Asistencia Mascota</li>
+                    <li class=" animate__animated animate__bounce animate__delay-2s animate__backInLeft">Compra Protegida</li>
+                    <li class=" animate__animated animate__bounce animate__delay-1s animate__backInLeft">Garantía Extendida</li>
                   </ul>
                 </div>
               </div>
@@ -246,37 +246,37 @@ get_header();
         <div class="col-sm-4">
           <div class=" col-sm-12 d-flex">
             <p>
-              <span class="titleNomina">Tarjeta Nómina.</span>
-              <span class="parNomina">
+              <span class="titleNomina animate__animated animate__bounce animate__delay-1s animate__backInLeft">Tarjeta Nómina.</span>
+              <span class="parNomina animate__animated animate__bounce animate__delay-2s animate__backInLeft">
                 Creamos una tarjeta de débito perfecta para tu negocio. La Tarjeta Nómina es la manera más fácil de pagar la nómina de tus empleados. Se puede administrar desde la app móvil para lograr una experiencia fluida, segura e intuitiva.
               </span>
             </p>
           </div>
         </div>
-        <div class="col-sm-4 contTarCred">
+        <div class="col-sm-4 contTarCred animate__animated animate__bounce animate__delay-1s animate__backInLeft">
             <img class="" src="/wp-content/themes/peibo-child/assets/img/empresas/Credit_Card_Mockup2v2.png" width="90%" alt="Peibo" />
         </div>
         <div class="col-sm-4">
           <div class="d-flex justify-content-around row">
             <div class="col-sm-3">
               <p>
-                <span class="parNomina parNomina2">
+                <span class="parNomina parNomina2 animate__animated animate__bounce animate__delay-3s animate__backInLeft">
                   Aprovecha todos los beneficios y paquetes asistenciales que ofrece la tarjeta:
                 </span>
               </p>
             </div>
             <div class="col-sm-3">
-              <ul class="listTarEmpresas coloBlack">
-                <li>Asistencia Médica</li>
-                <li>Asistencia Psicológica</li>
-                <li>Asistencia Nutricional</li>
-                <li>Asistencia del Hogar</li>
-                <li>Asistencia Vial</li>
-                <li>Asistencia Legal</li>
-                <li>Asistencia Funeraria</li>
-                <li>Asistencia Mascota</li>
-                <li>Compra Protegida</li>
-                <li>Garantía Extendida</li>
+              <ul class="listTarEmpresas coloBlack ">
+                <li class=" animate__animated animate__bounce animate__delay-1s animate__backInLeft">Asistencia Médica</li>
+                <li class=" animate__animated animate__bounce animate__delay-1s animate__backInLeft">Asistencia Psicológica</li>
+                <li class=" animate__animated animate__bounce animate__delay-1s animate__backInLeft">Asistencia Nutricional</li>
+                <li class=" animate__animated animate__bounce animate__delay-1s animate__backInLeft">Asistencia del Hogar</li>
+                <li class=" animate__animated animate__bounce animate__delay-1s animate__backInLeft">Asistencia Vial</li>
+                <li class=" animate__animated animate__bounce animate__delay-1s animate__backInLeft">Asistencia Legal</li>
+                <li class=" animate__animated animate__bounce animate__delay-1s animate__backInLeft">Asistencia Funeraria</li>
+                <li class=" animate__animated animate__bounce animate__delay-1s animate__backInLeft">Asistencia Mascota</li>
+                <li class=" animate__animated animate__bounce animate__delay-1s animate__backInLeft">Compra Protegida</li>
+                <li class=" animate__animated animate__bounce animate__delay-1s animate__backInLeft">Garantía Extendida</li>
               </ul>
             </div>
           </div>         
