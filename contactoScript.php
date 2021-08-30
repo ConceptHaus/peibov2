@@ -1,5 +1,5 @@
 <?php
-#require_once 'phpmailer/PHPMailerAutoload.php';
+require_once 'phpmailer/PHPMailerAutoload.php';
 require_once 'inpEmail_configuraciones.php';
 require_once 'variables-globales.php';
 
@@ -12,10 +12,12 @@ if(isset($_POST) && !empty($_POST['inpEmail'])){
 
     $sql = "INSERT INTO pbdev_contacto (nombre, apellido, correo, mensaje) VALUES ('".utf8_decode($_POST['inpNombre'])."', '".utf8_decode($_POST['inpApellidos'])."', '".$_POST['inpEmail']."', '".utf8_decode($_POST['inpMensaje'])."')";
     
+
+
     $servername = "localhost";
-    $database = "dvpeibo2.2";
-    $username = "root";
-    $password = "";
+    $database = "peibov2";
+    $username = "peibo";
+    $password = "o49f136e2lapcql09pg5";
     // Create connection
     $conn = mysqli_connect($servername, $username, $password, $database);
     // Check connection
