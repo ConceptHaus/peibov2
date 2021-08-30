@@ -112,7 +112,7 @@ get_header();
             </div>
             <div class="col-sm-12 d-flex justify-content-center  text-center">
               <div class="row col-sm-12 d-flex justify-content-center contEm">
-                  <h3>Cash Management.</h3>
+                  <h3 class="">Cash Management.</h3>
                   <br />
                 <label>Controla y monitorea tus finanzas desde nuestra aplicación de Cash Management.</label>
               </div>
@@ -163,29 +163,29 @@ get_header();
         <div class="row">
           <div class=" col-sm-12 d-flex">
             <p>
-              <span class="titleCash">Cash Management.</span>
-              <span class="parCash">
+              <span class="titleCash animate__animated animate__bounce animate__delay-1s animate__fadeInLeftBig">Cash Management.</span>
+              <span class="parCash animate__animated animate__bounce animate__delay-2s animate__fadeInLeftBig">
                 Actualmente, más de 10,000 empresas y corporativos usan nuestra plataforma de Cash Management, la cual está construida con las mejores herramientas para agilizar tu negocio.
               </span>
             </p>
           </div>
           <div class=" col-sm-12 d-flex">
             <ul class="listTarEmpresas listCustomEm">
-              <li>- Dispersión masiva de pagos.</li>
-              <li>- Tesorería global.</li>
-              <li>- Administración de múltiples usuarios en la misma cuenta.</li>
-              <li>- Servicio 24/7.</li>
+              <li class=" animate__animated animate__bounce animate__delay-2s animate__fadeInUpBig">- Dispersión masiva de pagos.</li>
+              <li class=" animate__animated animate__bounce animate__delay-3s animate__fadeInUpBig">- Tesorería global.</li>
+              <li class=" animate__animated animate__bounce animate__delay-4s animate__fadeInUpBig">- Administración de múltiples usuarios en la misma cuenta.</li>
+              <li class=" animate__animated animate__bounce animate__delay-5s animate__fadeInUpBig">- Servicio 24/7.</li>
             </ul>
           </div>
         </div>
       </div>
       <div class="col-sm-6 d-flex justify-content-center text-center contPantalla2" >
-        <img class="animate__animated animate__bounce animate__delay-1s animate__fadeInLeftBig" src="/wp-content/themes/peibo-child/assets/img/empresas/Pantalla2.png" width="70%" alt="Peibo" />
+        <img class="animate__animated animate__bounce animate__delay-3s animate__fadeInRightBig" src="/wp-content/themes/peibo-child/assets/img/empresas/Pantalla2.png" width="70%" alt="Peibo" />
       </div>
     </div>
   </div>
   <div class="container-fluid d-flex justify-content-center  contPantalla2Mobile">
-    <img class="animate__animated animate__bounce animate__delay-1s animate__fadeInLeftBig" src="/wp-content/themes/peibo-child/assets/img/empresas/Pantalla2Mobile.png" width="100%" alt="Peibo" />
+    <img class="animate__animated animate__bounce animate__delay-3s animate__fadeInRightBig" src="/wp-content/themes/peibo-child/assets/img/empresas/Pantalla2Mobile.png" width="100%" alt="Peibo" />
   </div>
 </section>
 
