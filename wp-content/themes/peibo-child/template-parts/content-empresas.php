@@ -57,7 +57,7 @@ get_header();
       <div>
         <div class="columnSection2 empresas">
           <div class="col-sm-12 d-flex justify-content-center d-flex contentICon">
-            <img class="iconSection animate__animated animate__bounce animate__delay-4s animate__p" src="/wp-content/themes/peibo-child/assets/img/icons/cash.png" alt="Peibo" />
+            <img class="iconSection rotate animate__animated animate__bounce animate__delay-4s animate__p" src="/wp-content/themes/peibo-child/assets/img/icons/cash.png" alt="Peibo" />
           </div>
           <div class="col-sm-12 d-flex justify-content-center  text-center">
             <div class="row col-sm-12 d-flex justify-content-center contEm">
@@ -71,7 +71,7 @@ get_header();
       <div>
         <div class="columnSection2 empresas">
           <div class="col-sm-12 d-flex justify-content-center contentICon">
-              <img class="iconSection" src="/wp-content/themes/peibo-child/assets/img/icons/credit.png" alt="Peibo" />
+              <img class="iconSection rotate" src="/wp-content/themes/peibo-child/assets/img/icons/credit.png" alt="Peibo" />
           </div>
           <div class="col-sm-12 d-flex justify-content-center text-center">
             <div class="row col-sm-12 d-flex justify-content-center contEm">
@@ -85,7 +85,7 @@ get_header();
       <div>
         <div class="columnSection2 empresas">
           <div class="col-sm-12 d-flex justify-content-center d-flex contentICon">
-              <img class="iconSection" src="/wp-content/themes/peibo-child/assets/img/icons/ejecutiva.png" alt="Peibo" />
+              <img class="iconSection rotate" src="/wp-content/themes/peibo-child/assets/img/icons/ejecutiva.png" alt="Peibo" />
           </div>
           <div class="col-sm-12 d-flex justify-content-center  text-center">
             <div class="row col-sm-12 d-flex justify-content-center contEm">
@@ -171,10 +171,10 @@ get_header();
           </div>
           <div class=" col-sm-12 d-flex">
             <ul class="listTarEmpresas listCustomEm">
-              <li class=" animate__animated animate__bounce animate__delay-2s animate__fadeInUpBig">- Dispersión masiva de pagos.</li>
-              <li class=" animate__animated animate__bounce animate__delay-3s animate__fadeInUpBig">- Tesorería global.</li>
-              <li class=" animate__animated animate__bounce animate__delay-4s animate__fadeInUpBig">- Administración de múltiples usuarios en la misma cuenta.</li>
-              <li class=" animate__animated animate__bounce animate__delay-5s animate__fadeInUpBig">- Servicio 24/7.</li>
+              <li class=" animate__animated animate__bounce animate__delay-2s animate__fadeInUpBig"><span style="animation:girar infinite 20s linear;">-</span> Dispersión masiva de pagos.</li>
+              <li class=" animate__animated animate__bounce animate__delay-3s animate__fadeInUpBig"><span style="animation:girar infinite 20s linear;">-</span> Tesorería global.</li>
+              <li class=" animate__animated animate__bounce animate__delay-4s animate__fadeInUpBig"><span style="animation:girar infinite 20s linear;">-</span> Administración de múltiples usuarios en la misma cuenta.</li>
+              <li class=" animate__animated animate__bounce animate__delay-5s animate__fadeInUpBig"><span style="animation:girar infinite 20s linear;">-</span> Servicio 24/7.</li>
             </ul>
           </div>
         </div>
