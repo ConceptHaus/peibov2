@@ -194,7 +194,7 @@ get_header();
       <!-- Control the column width, and how they should appear on different devices -->
     <div class="row ">
       <div class="col-sm-6">
-        <img class="rotate animate__animated animate__bounce animate__delay-1s animate__backInLeft" src="/wp-content/themes/peibo-child/assets/img/empresas/Credit_Card_Mockup2v2SinFondo.png" width="90%" alt="Peibo" />
+        <img class="rotate" src="/wp-content/themes/peibo-child/assets/img/empresas/Credit_Card_Mockup2v2SinFondo.png" width="90%" alt="Peibo" />
       </div>
       <div class="col-sm-6" >
         <div class="row">
@@ -294,14 +294,14 @@ get_header();
   <div class="container-fluid d-flex justify-content-left sectionQueremos empresas ">      
     <div class="row container d-flex justify-content-around">
         <div class="col-sm-10 mb-3" > 
-            <h3>Tarjeta Ejecutiva</h3>
+            <h3 class=" animate__animated animate__bounce animate__delay-1s animate__backInLeft">Tarjeta Ejecutiva</h3>
         </div>
         <div class="col-sm-10 mt-5" > 
-            <p class="first">Administra el saldo de esta tarjeta desde tu cuenta empresarial <br />para que tus empleados puedan pagar viáticos, viajes o  cualquier gasto que requieras en tu negocio.</p>
+            <p class="first  animate__animated animate__bounce animate__delay-1s animate__backInLeft">Administra el saldo de esta tarjeta desde tu cuenta empresarial <br />para que tus empleados puedan pagar viáticos, viajes o  cualquier gasto que requieras en tu negocio.</p>
             <br />
-            <p class="second">Ofrece a tus empleados un paquete de asistencias <br/> especializadas para viajes de negocio .</p>
+            <p class="second  animate__animated animate__bounce animate__delay-1s animate__backInLeft">Ofrece a tus empleados un paquete de asistencias <br/> especializadas para viajes de negocio .</p>
             <br />
-          <ul class="listEmpresas tercero">
+          <ul class="listEmpresas tercero  animate__animated animate__bounce animate__delay-1s animate__backInLeft">
             <li>
             Asistencia de Viaje</li>
             <li>
