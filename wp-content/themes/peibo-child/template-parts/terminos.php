@@ -21,7 +21,7 @@ get_header();
     <!-- Control the column width, and how they should appear on different devices -->
     <div class=" mask-terminosCondMiddle"></div>
     <section class="container">
-      <div class=" maskTerminos"></div>
+      <div class=" maskTerminos animateHorizontalDos"></div>
 
       <div class="row d-flex justify-content-center customPadding">
         <div class="col-sm-10">

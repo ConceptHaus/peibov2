@@ -20,9 +20,9 @@ get_header();
  <div class="container-fluid page-privacidad  mt-5 pt-5">
   <div class="contCabeceraInfo container-fluid"></div>
     <!-- Control the column width, and how they should appear on different devices -->
-    <div class=" maskLegalesMiddle"></div>
+    <div class=" maskLegalesMiddle "></div>
     <section class="container">
-      <div class=" maskLegales"></div>
+      <div class=" maskLegales animateHorizontalDos"></div>
 
       <div class="row d-flex justify-content-center customPadding">
         <div class="col-sm-10">
