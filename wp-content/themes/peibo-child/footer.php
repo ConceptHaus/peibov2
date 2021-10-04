@@ -65,7 +65,20 @@
                   </ul>
               </div>
             </div>
+            
           </div><!-- end.container -->
+
+          <div class="container ">
+            <!-- Control the column width, and how they should appear on different devices -->
+            <div class="row d-flex justify-content-center">
+              <div class="col-sm-10 text-center escribenos">
+                <label>Si tienes alguna duda o sugerencia, escríbenos a <a href="mailTo:comentarios@peibo.mx">comentarios@peibo.mx</a>
+                  <br/>
+                  ¡Apreciamos enormemente tu retroalimentación! Gracias.</label>
+              </div>
+              </div>
+            </div>
+          </div>
         </footer><!-- end.Footer -->
         
         <?php wp_footer(); ?>
