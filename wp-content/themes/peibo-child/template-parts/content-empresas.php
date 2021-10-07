@@ -16,8 +16,7 @@ get_header();
 ?>
 
 
-<div class="container-fluid  bgsSectionEmpresas">
-  <div class="maskSupHom animateHorizontal"></div>
+<div class="container-fluid bgsSectionEmpresas ">
   <!-- Control the column width, and how they should appear on different devices -->
   <section class="container mt-1">
     <div class="row">
@@ -45,23 +44,23 @@ get_header();
       </div>
       <div class="col-sm-6 justify-content-center ">
         <div class="bgsSectionEmpresasMobile"></div>
-        <img class="celular animate__animated animate__bounce animate__delay-1s animate__fadeInRightBig" src="/wp-content/themes/peibo-child/assets/img/empresas/empresasv2.png" alt="Peibo" />
+        <img class="celular wow fadeIn" data-wow-duration="1s" data-wow-delay="1s" src="/wp-content/themes/peibo-child/assets/img/empresas/empresasv2.png" alt="Peibo" />
       </div>
     </div>
   </section>
 </div>
 
-<section class="slideCt mt-5 animate__animated animate__bounce animate__delay-3s animate__bounceInUp">
-  <div class="slideCt__bgTrans">
+<section class="slideCt mt-5">
+  <div class="slideCt__bgTrans wow bounceInUp" data-wow-duration="1s" data-wow-delay="1s">
     <div class="sliderCards">
       <div>
         <div class="columnSection2 empresas">
           <div class="col-sm-12 d-flex justify-content-center d-flex contentICon">
-            <img class="iconSection rotate animate__animated animate__bounce animate__delay-4s animate__p" src="/wp-content/themes/peibo-child/assets/img/icons/cash.png" alt="Peibo" />
+            <img class="iconSection" src="/wp-content/themes/peibo-child/assets/img/icons/cash.png" alt="Peibo" />
           </div>
           <div class="col-sm-12 d-flex justify-content-center  text-center">
             <div class="row col-sm-12 d-flex justify-content-center contEm">
-                <h3  class=" animate__animated animate__bounce animate__delay-1s animate__backInLeft">Cash Management.</h3>
+                <h3>Cash Management.</h3>
                 <br />
               <label class="mt-2">Controla y monitorea tus finanzas desde nuestra aplicación de Cash Management.</label>
             </div>
@@ -71,11 +70,11 @@ get_header();
       <div>
         <div class="columnSection2 empresas">
           <div class="col-sm-12 d-flex justify-content-center contentICon">
-              <img class="iconSection rotate" src="/wp-content/themes/peibo-child/assets/img/icons/credit.png" alt="Peibo" />
+              <img class="iconSection" src="/wp-content/themes/peibo-child/assets/img/icons/credit.png" alt="Peibo" />
           </div>
           <div class="col-sm-12 d-flex justify-content-center text-center">
             <div class="row col-sm-12 d-flex justify-content-center contEm">
-              <h3 class=" animate__animated animate__bounce animate__delay-1s animate__backInLeft">Tarjeta Nómina.</h3>
+              <h3>Tarjeta Nómina.</h3>
               <br/>
               <label class="mt-2">Solicita la Tarjeta Nómina y disfruta de todos los beneficios que tiene para tus empleados y para ti. <br/>Realiza transferencias y pagos 24/7.</label>
             </div>
@@ -85,7 +84,7 @@ get_header();
       <div>
         <div class="columnSection2 empresas">
           <div class="col-sm-12 d-flex justify-content-center d-flex contentICon">
-              <img class="iconSection rotate" src="/wp-content/themes/peibo-child/assets/img/icons/ejecutiva.png" alt="Peibo" />
+              <img class="iconSection" src="/wp-content/themes/peibo-child/assets/img/icons/ejecutiva.png" alt="Peibo" />
           </div>
           <div class="col-sm-12 d-flex justify-content-center  text-center">
             <div class="row col-sm-12 d-flex justify-content-center contEm">
@@ -98,7 +97,7 @@ get_header();
       </div><!-- end.itemSlider -->
     </div>
   </div><!-- end.slideCt__bgTrans -->
-</section><!-- end.slideCt --> 
+</section><!-- end.slideCt -->
 
 <section class="container-fluid d-flex justify-content-center preSection animate__animated animate__bounce animate__delay-3s animate__bounceInUp" style="display: none!important;">
   <div class="row mt-2 mb-2 container section2">
@@ -112,7 +111,7 @@ get_header();
             </div>
             <div class="col-sm-12 d-flex justify-content-center  text-center">
               <div class="row col-sm-12 d-flex justify-content-center contEm">
-                  <h3 class="">Cash Management.</h3>
+                  <h3>Cash Management.</h3>
                   <br />
                 <label>Controla y monitorea tus finanzas desde nuestra aplicación de Cash Management.</label>
               </div>
@@ -123,7 +122,7 @@ get_header();
         <div class="col-sm-4 columnSection2 empresas">
           <div class="row">
             <div class="col-sm-12 d-flex justify-content-center contentICon">
-                <img class="iconSection  animate__animated animate__bounce animate__delay-4s animate__p" src="/wp-content/themes/peibo-child/assets/img/icons/credit.png" alt="Peibo" />
+                <img class="iconSection" src="/wp-content/themes/peibo-child/assets/img/icons/credit.png" alt="Peibo" />
             </div>
             <div class="col-sm-12 d-flex justify-content-center text-center">
               <div class="row col-sm-12 d-flex justify-content-center contEm">
@@ -138,7 +137,7 @@ get_header();
         <div class="col-sm-4 columnSection2 empresas">
           <div class="row">
             <div class="col-sm-12 d-flex justify-content-center d-flex contentICon">
-                <img class="iconSection  animate__animated animate__bounce animate__delay-4s animate__p" src="/wp-content/themes/peibo-child/assets/img/icons/ejecutiva.png" alt="Peibo" />
+                <img class="iconSection" src="/wp-content/themes/peibo-child/assets/img/icons/ejecutiva.png" alt="Peibo" />
             </div>
             <div class="col-sm-12 d-flex justify-content-center  text-center">
               <div class="row col-sm-12 d-flex justify-content-center contEm">
@@ -163,29 +162,29 @@ get_header();
         <div class="row">
           <div class=" col-sm-12 d-flex">
             <p>
-              <span class="titleCash animate__animated animate__bounce animate__delay-1s animate__fadeInLeftBig">Cash Management.</span>
-              <span class="parCash animate__animated animate__bounce animate__delay-2s animate__fadeInLeftBig">
+              <span class="titleCash">Cash Management.</span>
+              <span class="parCash">
                 Actualmente, más de 10,000 empresas y corporativos usan nuestra plataforma de Cash Management, la cual está construida con las mejores herramientas para agilizar tu negocio.
               </span>
             </p>
           </div>
           <div class=" col-sm-12 d-flex">
-            <ul class="listTarEmpresas listCustomEm">
-              <li class=" animate__animated animate__bounce animate__delay-2s animate__fadeInUpBig"><span style="animation:girar infinite 20s linear;">-</span> Dispersión masiva de pagos.</li>
-              <li class=" animate__animated animate__bounce animate__delay-3s animate__fadeInUpBig"><span style="animation:girar infinite 20s linear;">-</span> Tesorería global.</li>
-              <li class=" animate__animated animate__bounce animate__delay-4s animate__fadeInUpBig"><span style="animation:girar infinite 20s linear;">-</span> Administración de múltiples usuarios en la misma cuenta.</li>
-              <li class=" animate__animated animate__bounce animate__delay-5s animate__fadeInUpBig"><span style="animation:girar infinite 20s linear;">-</span> Servicio 24/7.</li>
+            <ul class="listTarEmpresas">
+              <li>- Dispersión masiva de pagos.</li>
+              <li>- Tesorería global.</li>
+              <li>- Administración de múltiples usuarios en la misma cuenta.</li>
+              <li>- Servicio 24/7.</li>
             </ul>
           </div>
         </div>
       </div>
-      <div class="col-sm-6 d-flex justify-content-center text-center contPantalla2" >
-        <img class="animate__animated animate__bounce animate__delay-3s animate__fadeInRightBig" src="/wp-content/themes/peibo-child/assets/img/empresas/Pantalla2.png" width="70%" alt="Peibo" />
+      <div class="col-sm-6 d-flex justify-content-center texy-center contPantalla2" >
+        <img class="wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s" src="/wp-content/themes/peibo-child/assets/img/empresas/Pantalla2.png" width="90%" alt="Peibo" />
       </div>
     </div>
   </div>
   <div class="container-fluid d-flex justify-content-center  contPantalla2Mobile">
-    <img class="animate__animated animate__bounce animate__delay-3s animate__fadeInRightBig" src="/wp-content/themes/peibo-child/assets/img/empresas/Pantalla2Mobile.png" width="100%" alt="Peibo" />
+    <img class="" src="/wp-content/themes/peibo-child/assets/img/empresas/Pantalla2Mobile.png" width="100%" alt="Peibo" />
   </div>
 </section>
 
@@ -194,17 +193,17 @@ get_header();
       <!-- Control the column width, and how they should appear on different devices -->
     <div class="row ">
       <div class="col-sm-6">
-        <img class="" src="/wp-content/themes/peibo-child/assets/img/empresas/Gif.gif" width="100%" alt="Peibo" />
+        <img class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s" src="/wp-content/themes/peibo-child/assets/img/empresas/Credit_Card_Mockup2v2.png" width="90%" alt="Peibo" />
       </div>
       <div class="col-sm-6" >
         <div class="row">
           <div class=" col-sm-12 d-flex">
             <p>
-              <span class="titleNomina  animate__animated animate__bounce animate__delay-1s animate__fadeInUpBig">Tarjeta Nómina.</span>
-              <span class="parNomina  animate__animated animate__bounce animate__delay-2s animate__fadeInUpBig">
+              <span class="titleNomina">Tarjeta Nómina.</span>
+              <span class="parNomina">
                 Creamos una tarjeta de débito perfecta para tu negocio. La Tarjeta Nómina es la manera más fácil de pagar la nómina de tus empleados. Se puede administrar desde la app móvil para lograr una experiencia fluida, segura e intuitiva.
               </span>
-              <span class="parNomina parNomina2  animate__animated animate__bounce animate__delay-3s animate__fadeInUpBig">
+              <span class="parNomina parNomina2">
                 Aprovecha todos los beneficios y paquetes asistenciales que ofrece la tarjeta:
               </span>
             </p>
@@ -215,20 +214,20 @@ get_header();
               <div class="row">
                 <div class="col-sm-6">
                   <ul class="listTarEmpresas coloBlack">
-                    <li class=" animate__animated animate__bounce animate__delay-1s animate__backInLeft">Asistencia Médica</li>
-                    <li class=" animate__animated animate__bounce animate__delay-2s animate__backInLeft">Asistencia Psicológica</li>
-                    <li class=" animate__animated animate__bounce animate__delay-3s animate__backInLeft">Asistencia Nutricional</li>
-                    <li class=" animate__animated animate__bounce animate__delay-4s animate__backInLeft">Asistencia del Hogar</li>
-                    <li class=" animate__animated animate__bounce animate__delay-5s animate__backInLeft">Asistencia Vial</li>
+                    <li>Asistencia Médica</li>
+                    <li>Asistencia Psicológica</li>
+                    <li>Asistencia Nutricional</li>
+                    <li>Asistencia del Hogar</li>
+                    <li>Asistencia Vial</li>
                   </ul>
                 </div>
                 <div class="col-sm-6">
                   <ul class="listTarEmpresas coloBlack">
-                    <li class=" animate__animated animate__bounce animate__delay-5s animate__backInLeft">Asistencia Legal</li>
-                    <li class=" animate__animated animate__bounce animate__delay-4s animate__backInLeft">Asistencia Funeraria</li>
-                    <li class=" animate__animated animate__bounce animate__delay-3s animate__backInLeft">Asistencia Mascota</li>
-                    <li class=" animate__animated animate__bounce animate__delay-2s animate__backInLeft">Compra Protegida</li>
-                    <li class=" animate__animated animate__bounce animate__delay-1s animate__backInLeft">Garantía Extendida</li>
+                    <li>Asistencia Legal</li>
+                    <li>Asistencia Funeraria</li>
+                    <li>Asistencia Mascota</li>
+                    <li>Compra Protegida</li>
+                    <li>Garantía Extendida</li>
                   </ul>
                 </div>
               </div>
@@ -246,37 +245,37 @@ get_header();
         <div class="col-sm-4">
           <div class=" col-sm-12 d-flex">
             <p>
-              <span class="titleNomina animate__animated animate__bounce animate__delay-1s animate__backInLeft">Tarjeta Nómina.</span>
-              <span class="parNomina animate__animated animate__bounce animate__delay-2s animate__backInLeft">
+              <span class="titleNomina">Tarjeta Nómina.</span>
+              <span class="parNomina">
                 Creamos una tarjeta de débito perfecta para tu negocio. La Tarjeta Nómina es la manera más fácil de pagar la nómina de tus empleados. Se puede administrar desde la app móvil para lograr una experiencia fluida, segura e intuitiva.
               </span>
             </p>
           </div>
         </div>
-        <div class="col-sm-4 contTarCred animate__animated animate__bounce animate__delay-1s animate__backInLeft">
+        <div class="col-sm-4 contTarCred">
             <img class="" src="/wp-content/themes/peibo-child/assets/img/empresas/Credit_Card_Mockup2v2.png" width="90%" alt="Peibo" />
         </div>
         <div class="col-sm-4">
           <div class="d-flex justify-content-around row">
             <div class="col-sm-3">
               <p>
-                <span class="parNomina parNomina2 animate__animated animate__bounce animate__delay-3s animate__backInLeft">
+                <span class="parNomina parNomina2">
                   Aprovecha todos los beneficios y paquetes asistenciales que ofrece la tarjeta:
                 </span>
               </p>
             </div>
             <div class="col-sm-3">
-              <ul class="listTarEmpresas coloBlack ">
-                <li class=" animate__animated animate__bounce animate__delay-1s animate__backInLeft">Asistencia Médica</li>
-                <li class=" animate__animated animate__bounce animate__delay-1s animate__backInLeft">Asistencia Psicológica</li>
-                <li class=" animate__animated animate__bounce animate__delay-1s animate__backInLeft">Asistencia Nutricional</li>
-                <li class=" animate__animated animate__bounce animate__delay-1s animate__backInLeft">Asistencia del Hogar</li>
-                <li class=" animate__animated animate__bounce animate__delay-1s animate__backInLeft">Asistencia Vial</li>
-                <li class=" animate__animated animate__bounce animate__delay-1s animate__backInLeft">Asistencia Legal</li>
-                <li class=" animate__animated animate__bounce animate__delay-1s animate__backInLeft">Asistencia Funeraria</li>
-                <li class=" animate__animated animate__bounce animate__delay-1s animate__backInLeft">Asistencia Mascota</li>
-                <li class=" animate__animated animate__bounce animate__delay-1s animate__backInLeft">Compra Protegida</li>
-                <li class=" animate__animated animate__bounce animate__delay-1s animate__backInLeft">Garantía Extendida</li>
+              <ul class="listTarEmpresas coloBlack">
+                <li>Asistencia Médica</li>
+                <li>Asistencia Psicológica</li>
+                <li>Asistencia Nutricional</li>
+                <li>Asistencia del Hogar</li>
+                <li>Asistencia Vial</li>
+                <li>Asistencia Legal</li>
+                <li>Asistencia Funeraria</li>
+                <li>Asistencia Mascota</li>
+                <li>Compra Protegida</li>
+                <li>Garantía Extendida</li>
               </ul>
             </div>
           </div>         
@@ -294,14 +293,14 @@ get_header();
   <div class="container-fluid d-flex justify-content-left sectionQueremos empresas ">      
     <div class="row container d-flex justify-content-around">
         <div class="col-sm-10 mb-3" > 
-            <h3 class=" animate__animated animate__bounce animate__delay-5s animate__backInLeft">Tarjeta Ejecutiva</h3>
+            <h3>Tarjeta Ejecutiva</h3>
         </div>
         <div class="col-sm-10 mt-5" > 
-            <p class="first  animate__animated animate__bounce animate__delay-5s animate__backInLeft">Administra el saldo de esta tarjeta desde tu cuenta empresarial <br />para que tus empleados puedan pagar viáticos, viajes o  cualquier gasto que requieras en tu negocio.</p>
+            <p>Administra el saldo de esta tarjeta desde tu cuenta empresarial <br />para que tus empleados puedan pagar viáticos, viajes o <br/> cualquier gasto que requieras en tu negocio.</p>
             <br />
-            <p class="second  animate__animated animate__bounce animate__delay-5s animate__backInLeft">Ofrece a tus empleados un paquete de asistencias <br/> especializadas para viajes de negocio .</p>
+            <p class="second">Ofrece a tus empleados un paquete de asistencias <br/> especializadas para viajes de negocio .</p>
             <br />
-          <ul class="listEmpresas tercero  animate__animated animate__bounce animate__delay-5s animate__backInLeft">
+          <ul class="listEmpresas">
             <li>
             Asistencia de Viaje</li>
             <li>
@@ -334,50 +333,12 @@ get_header();
     <div class="col-sm-6 bgsImgContact d-none d-sm-block">
       <img src="/wp-content/themes/peibo-child/assets/img/empresas/contactoempresa.png" />
     </div>
-    <div class="col-sm-6 contentFrm justify-content-center d-flex pt-2" style="position: relative;">
-       <div class="col-sm-12 justify-content-center d-flex pt-2">
+    <div class="col-sm-6 contentFrm justify-content-center d-flex">
+       <div class="col-sm-12 justify-content-center d-flex pt-2" style="position:relative;">
             
-         <form id="frmContact" method="POST" name="frmContact" class="pt-5" style="position:relative;">
-           <div class="form-row customRowForm">
-                <h2>Contacto</h2>
-           </div>
-           <div class="form-row customRowForm">
-                <label>¿Tienes alguna duda o comentario para nosotros?<br/>
-                Completa el siguiente formulario para contactar con nuestro equipo.</label>
-           </div>
-          <div class="form-row mt-4 posRela">
-            <div class="form-group col-md-6 ">
-               <label for="inputEmail4">Nombre (s)*</label>
-               <input type="text" class="form-control required" required id="inpNombre" name="inpNombre">
-            </div>
-            <div class="form-group col-md-6 posRela">
-              <label for="inputPassword4">Apellidos*</label>
-              <input type="text" class="form-control required" required id="inpApellidos" name="inpApellidos">
-            </div>
-          </div>
-          <div class="form-group posRela">
-            <label for="inputAddress">Email</label>
-            <input type="email" class="form-control required" required id="inpEmail" name="inpEmail">
-          </div>
-          <div class="form-group posRela">
-            <label for="inputAddress2">Mensaje*</label>
-            <textarea id="inpMensaje" name="inpMensaje" class="form-control required" required></textarea>
-          </div>
-          <div class="form-group text-center d-flex justify-content-center">
-            <button type="submit" class="btn btn-primary btnSubmit btnSend">enviar  <i class="fa fa-paper-plane"></i></button>
-          </div>
-        
-
-        <div class="ctModal hideMo" id="modalCongrats">
-            <div class="ctModal__icon">
-              <i class="fa fa-paper-plane"></i>
-            </div><!-- end.ctModal__icon -->
-            <div class="ctModal__desc">
-              <h4 class="ctModal__title">¡Gracias por ponerte en contacto con nosotros!</h4>
-              <p>En breve recibirás un correo de nuestros asesores.</p>
-            </div>
-          </div><!-- end.ctModal -->
-        </form><!-- end.form -->
+        <div class="pt-5" style="position:relative;">
+          <?php echo do_shortcode('[contact-form-7 id="104" title="Formulario Contacto"]'); ?>
+        </div><!-- end.form -->
       </div>
     </div> 
   </div>

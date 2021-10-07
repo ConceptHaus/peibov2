@@ -20,17 +20,17 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'peibov2' );
+define( 'DB_NAME', 'db_peiboappv1' );
 #define( 'DB_NAME', 'peibo' );
 
 /** MySQL database username */
-#define( 'DB_USER', 'root' );
-define( 'DB_USER', 'peibo' );
+define( 'DB_USER', 'root' );
+#define( 'DB_USER', 'peibo' );
 
 
 /** MySQL database password */
-#define( 'DB_PASSWORD', '' );
-define( 'DB_PASSWORD', 'o49f136e2lapcql09pg5' );
+define( 'DB_PASSWORD', '' );
+#define( 'DB_PASSWORD', 'o49f136e2lapcql09pg5' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
@@ -82,6 +82,9 @@ $table_prefix = 'pbdev_';
  * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
 define( 'WP_DEBUG', false );
+
+/* Desactiva validación Conact form 7 */
+define( 'WPCF7_VALIDATE_CONFIGURATION', false );
 
 /* That's all, stop editing! Happy publishing. */
 

@@ -3,7 +3,7 @@
 
         <!-- footer -->
         <footer class="g-footer" data-blur-content>
-          <div class="col-sm-8" style="z-index:4; position: relative;">
+          <div class="col-sm-8" style="z-index:4;">
             <div class="row">
               <div class="col-sm-4">
                 <ul class="listFooter">
@@ -41,13 +41,17 @@
                   <ul class="listFooter mt-3">
                     <!--<li>
                       <a href="/personal">Personal</a>
-                    </li>
+                    </li>-->
                     <li>
                       <a href="/empresas">Empresas</a>
-                    </li>-->
+                    </li>
                     <li>
                       <a href="/blog">Blog</a>
                     </li>
+                  </ul>
+              </div>
+              <div class="col-sm-4">
+                <ul class="listFooter">
                     <li>
                       <a href="/legales">Legales</a>
                     </li>
@@ -59,26 +63,8 @@
                     </li>
                   </ul>
               </div>
-              <div class="col-sm-4">
-                <ul class="listFooter">
-                    
-                  </ul>
-              </div>
             </div>
-            
           </div><!-- end.container -->
-
-          <div class="container ">
-            <!-- Control the column width, and how they should appear on different devices -->
-            <div class="row d-flex justify-content-center">
-              <div class="col-sm-10 text-center escribenos">
-                <label>Si tienes alguna duda o sugerencia, escríbenos a <a href="mailTo:comentarios@peibo.mx">comentarios@peibo.mx</a>
-                  <br/>
-                  ¡Apreciamos enormemente tu retroalimentación! Gracias.</label>
-              </div>
-              </div>
-            </div>
-          </div>
         </footer><!-- end.Footer -->
         
         <?php wp_footer(); ?>
