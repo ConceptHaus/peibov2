@@ -10,11 +10,7 @@ get_header();
     <!-- Control the column width, and how they should appear on different devices -->
     <div class=" maskLegalesMiddle "></div>
     <section class="container">
-<<<<<<< HEAD
-      <div class=" maskTerminos"></div>
-=======
       <div class=" maskLegales animateHorizontalDos"></div>
->>>>>>> 6189854c13f47fb7fc54cd26f0c3df74df609488
 
       <div class="row d-flex justify-content-center customPadding">
         <div class="col-sm-10">
