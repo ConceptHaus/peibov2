@@ -80,7 +80,7 @@ function peibo_head() {
 	wp_enqueue_script( 'easing', get_stylesheet_directory_uri() . '/assets/js/vendor/jquery.easing.1.3.js', array(), $versionFiles, true);
 	wp_enqueue_script( 'tweenmax', get_stylesheet_directory_uri() . '/assets/vendor/greensock/dist/TweenMax.js', array(), $versionFiles, true);
    wp_enqueue_script( 'validate.min', get_stylesheet_directory_uri() . '/assets/js/plugins/jquery.validate.min.js', array(), $versionFiles, true);
-	//  wp_enqueue_script( 'methods.min', get_stylesheet_directory_uri() . '/assets/js/plugins/additional-methods.min.js', array(), $versionFiles, true);
+	 wp_enqueue_script( 'methods.min', get_stylesheet_directory_uri() . '/assets/js/plugins/additional-methods.min.js', array(), $versionFiles, true);
 	wp_enqueue_script( 'wow.min', get_stylesheet_directory_uri() . '/assets/js/plugins/wow.min.js', array(), $versionFiles, true);
 	wp_enqueue_script( 'slick.min', get_stylesheet_directory_uri() . '/assets/js/plugins/slick.min.js', array(), $versionFiles, true);
 	wp_enqueue_script( 'scrolly.min', get_stylesheet_directory_uri() . '/assets/js/plugins/jquery.scrolly.min.js', array(), $versionFiles, true);
@@ -88,7 +88,7 @@ function peibo_head() {
 	wp_enqueue_script( 'browser.min', get_stylesheet_directory_uri() . '/assets/js/plugins/browser.min.js', array(), $versionFiles, true);
 	wp_enqueue_script( 'breakpoints.min', get_stylesheet_directory_uri() . '/assets/js/plugins/breakpoints.min.js', array(), $versionFiles, true);
 	wp_enqueue_script( 'parallax.min', get_stylesheet_directory_uri() . '/assets/js/scripts/parallaxscript.min.js', array(), $versionFiles, true);
-	//wp_enqueue_script( 'layout.min', get_stylesheet_directory_uri() . '/assets/js/scripts/layoutScripts.min.js', array(), $versionFiles, true);
+	wp_enqueue_script( 'layout.min', get_stylesheet_directory_uri() . '/assets/js/scripts/layoutScripts.min.js', array(), $versionFiles, true);
 	//wp_enqueue_script( 'formularios.min', get_stylesheet_directory_uri() . '/assets/js/scripts/frmspeibo.min.js', array(), $versionFiles, true);
 }
 add_action( 'wp_enqueue_scripts', 'peibo_head' );
